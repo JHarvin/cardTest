@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YnvHKMCzrNSZsYAQbtShHj3byOI+p7tgexqRXVfYt79aW4XJko0P653xuxMB6y2Hq7QCpe9GODBWwylR4L06nw==",
+  "success": true,
+  "projectFilePath": "D:\\Desarrollos\\cardTest\\CardTest\\WebFrontend\\WebFrontend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\harvi\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
+  "logs": []
+}

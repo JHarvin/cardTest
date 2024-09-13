@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Categorias";
+}
+
+ <div class="row">
+        <div class="col-2">
+            <button class="btn btn-secondary" onclick="cargarDataTable();" data-toggle="modal" data-target="#modalAgregarCategoria"> <i class="fas fa-plus"></i> READ_UNCOMMITED </button>
+        </div>
+        
+        
+       
+    </div>
+        <br />
+    <br />
+
+
+ <div class="row">
+        <div class="col-6">
+            <h2 class="text-primary">Lista de compras</h2>
+        </div>
+        
+    </div>
+    
+    <br />
+    <br />
+    
+
+
+<table id="tblCategorias" class="table">
+  <thead class="thead-dark">
+    <tr>
+           <th scope="col">Id</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Eliminar</th>
+    
+    </tr>
+  </thead>
+ 
+</table>
+
+
+
+<partial name="_AgregarCategoria" model="new WebFrontend.Models.Categoria()" />
+
+
+@section Scripts{
+    <script src="~/js/categoria.js"></script>
+}
